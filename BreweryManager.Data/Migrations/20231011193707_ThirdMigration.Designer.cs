@@ -3,6 +3,7 @@ using BreweryManager.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BreweryManager.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20231011193707_ThirdMigration")]
+    partial class ThirdMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -206,7 +208,7 @@ namespace BreweryManager.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("BreweryManager.EntityModels.Wholesaler", "Wholesaler")
-                        .WithMany("WholesalerBeerProducts")
+                        .WithMany("Product")
                         .HasForeignKey("WholesalerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -230,7 +232,7 @@ namespace BreweryManager.Data.Migrations
                 {
                     b.Navigation("Orders");
 
-                    b.Navigation("WholesalerBeerProducts");
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

@@ -7,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace BreweryManager.EntityModels
 {
-    public class Beer
+    public class Wholesaler
     {
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public double AlcoolDegree { get; set; }
-        public double Price { get; set;}
-        [Required]
-        public int BreweryId { get; set; }
-        public Brewery Brewery{ get; set; }
-
+        public List<WholesalerBeerProduct> WholesalerBeerProducts { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }
