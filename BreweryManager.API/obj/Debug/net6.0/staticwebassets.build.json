@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YvkYmMwUYJ758xrOh0cbC3lDhhz/tgXs/xBc569CxE4=",
+  "Source": "BreweryManager.API",
+  "BasePath": "_content/BreweryManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
