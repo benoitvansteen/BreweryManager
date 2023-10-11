@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreweryManager.API", "BreweryManager.API\BreweryManager.API.csproj", "{1F68A662-822D-4017-B427-F38790E0BF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreweryManager.API", "BreweryManager.API\BreweryManager.API.csproj", "{1F68A662-822D-4017-B427-F38790E0BF6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreweryManager.Data", "BreweryManager.Data\BreweryManager.Data.csproj", "{63453CB2-C682-4357-8D33-A8AB00317CB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreweryManager.EntityModels", "BreweryManager.EntityModels\BreweryManager.EntityModels.csproj", "{79E404F0-BBD3-442D-AC62-D9B15F2EE712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreweryManager.Domain", "BreweryManager.Domain\BreweryManager.Domain.csproj", "{133BCEB5-2141-42DC-80AE-05FBC9E96833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1F68A662-822D-4017-B427-F38790E0BF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F68A662-822D-4017-B427-F38790E0BF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F68A662-822D-4017-B427-F38790E0BF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63453CB2-C682-4357-8D33-A8AB00317CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63453CB2-C682-4357-8D33-A8AB00317CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63453CB2-C682-4357-8D33-A8AB00317CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63453CB2-C682-4357-8D33-A8AB00317CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E404F0-BBD3-442D-AC62-D9B15F2EE712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E404F0-BBD3-442D-AC62-D9B15F2EE712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E404F0-BBD3-442D-AC62-D9B15F2EE712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E404F0-BBD3-442D-AC62-D9B15F2EE712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{133BCEB5-2141-42DC-80AE-05FBC9E96833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133BCEB5-2141-42DC-80AE-05FBC9E96833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133BCEB5-2141-42DC-80AE-05FBC9E96833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133BCEB5-2141-42DC-80AE-05FBC9E96833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

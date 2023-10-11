@@ -1,0 +1,14 @@
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\bin\Debug\net6.0\BreweryManager.DataBase.deps.json
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\bin\Debug\net6.0\BreweryManager.DataBase.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\bin\Debug\net6.0\BreweryManager.DataBase.pdb
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.AssemblyInfoInputs.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.AssemblyInfo.cs
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\refint\BreweryManager.DataBase.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.pdb
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\ref\BreweryManager.DataBase.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\bin\Debug\net6.0\BreweryManager.DataBase.runtimeconfig.json
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.csproj.AssemblyReference.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.DataBase\obj\Debug\net6.0\BreweryManager.DataBase.genruntimeconfig.cache

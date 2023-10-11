@@ -1,0 +1,12 @@
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.AssemblyInfoInputs.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.AssemblyInfo.cs
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.csproj.CoreCompileInputs.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\bin\Debug\net6.0\BreweryManager.EntityModels.deps.json
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\bin\Debug\net6.0\BreweryManager.EntityModels.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\bin\Debug\net6.0\BreweryManager.EntityModels.pdb
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.csproj.AssemblyReference.cache
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\refint\BreweryManager.EntityModels.dll
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\BreweryManager.EntityModels.pdb
+C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.EntityModels\obj\Debug\net6.0\ref\BreweryManager.EntityModels.dll

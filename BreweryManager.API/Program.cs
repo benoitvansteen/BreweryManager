@@ -1,8 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using BreweryManager.Data;
+using BreweryManager.Domain.Interfaces.Managers;
+using BreweryManager.Domain.Interfaces.Business;
+using BreweryManager.Data.Managers;
+using BreweryManager.Domain.Business;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+//Database dependency injections
+builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("BreweryManagerConnection")));
+
+//dependency injections
+builder.Services.AddScoped<IBreweryManagerManager, BreweryManagerManager>();
+builder.Services.AddScoped<IBreweryManagerBusiness, BreweryManagerBusiness>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -21,5 +36,15 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+try
+{
+    //var context = 
+}
+catch (Exception ex)
+{
+
+	throw;
+}
 
 app.Run();
