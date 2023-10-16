@@ -15,5 +15,7 @@ namespace BreweryManager.Domain.Models
         public double Price { get; set; }
         public int BreweryId { get; set; }
         public BreweryModel Brewery { get; set; }
+
+        public List<WholesalerModel> Wholesalers { get; set; }
     }
 }

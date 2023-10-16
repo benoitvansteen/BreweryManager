@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHdDLGNoZZGpEHzzTnVB2ncJv8yMOrsvvKqM/f9npvIS9kfMH8fwC5VCwKilfwiGBn+E5BkUPhd2vGt64aJbrg==",
+  "dgSpecHash": "0p82avGr5G7wK9HCXWl4p1F4b3YPxRziBO8yyoTt3zFAwSXoGtsb3KjWWC79MHUSIjigJzCp86WAKHw87r3Wsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BVS Game\\source\\repos\\benoitvansteen\\BreweryManager\\BreweryManager.Domain\\BreweryManager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\BEV03\\source\\repos\\benoitvansteen\\BreweryManager\\BreweryManager.Domain\\BreweryManager.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

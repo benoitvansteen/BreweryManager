@@ -1,4 +1,5 @@
 ﻿using BreweryManager.Domain.Models;
+using BreweryManager.Domain.Models.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace BreweryManager.Domain.Interfaces.Managers
     public interface IBreweryManagerManager
     {
         Task<List<BeerModel>> GetAllBeersByBrewery(int breweryId);
+
+        BeerModel AddBeer(CreateBeerModel newBeer);
     }
 }

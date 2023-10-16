@@ -1,6 +1,7 @@
 ﻿using BreweryManager.Domain.Interfaces.Business;
 using BreweryManager.Domain.Interfaces.Managers;
 using BreweryManager.Domain.Models;
+using BreweryManager.Domain.Models.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,12 @@ namespace BreweryManager.Domain.Business
         {
             _breweryManager = breweryManager;
         }
+
+        public BeerModel AddBeer(CreateBeerModel newBeer)
+        {
+            return _breweryManager.AddBeer(newBeer);
+        }
+
         public async Task<List<BeerModel>> GetAllBeersByBrewery(int breweryId)
         {
             return await _breweryManager.GetAllBeersByBrewery(breweryId);

@@ -17,3 +17,22 @@ C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data
 C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.genruntimeconfig.cache
 C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Domain.dll
 C:\Users\BVS Game\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Domain.pdb
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Data.deps.json
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Data.runtimeconfig.json
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Data.dll
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Data.pdb
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Domain.dll
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.EntityModels.dll
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.Domain.pdb
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\bin\Debug\net6.0\BreweryManager.EntityModels.pdb
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.csproj.AssemblyReference.cache
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.AssemblyInfoInputs.cache
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.AssemblyInfo.cs
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.csproj.CopyComplete
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.dll
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\refint\BreweryManager.Data.dll
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.pdb
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\BreweryManager.Data.genruntimeconfig.cache
+C:\Users\BEV03\source\repos\benoitvansteen\BreweryManager\BreweryManager.Data\obj\Debug\net6.0\ref\BreweryManager.Data.dll

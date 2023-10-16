@@ -1,5 +1,6 @@
 using BreweryManager.Domain.Interfaces.Business;
 using BreweryManager.Domain.Models;
+using BreweryManager.Domain.Models.Request;
 using BreweryManager.EntityModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,6 +25,20 @@ namespace BreweryManager.API.Controllers
         {
             var beers = await _business.GetAllBeersByBrewery(breweryId);
             return beers;
+        }
+
+        [HttpPost]
+        public ActionResult AddBeer(CreateBeerModel newBeer)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(_business.AddBeer(newBeer));
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+           
         }
 
         [HttpGet(Name = "GetBrewery")]
