@@ -13,5 +13,7 @@ namespace BreweryManager.Domain.Interfaces.Managers
         Task<List<BeerModel>> GetAllBeersByBrewery(int breweryId);
 
         BeerModel AddBeer(CreateBeerModel newBeer);
+
+        WholesalerBeerProductModel UpdateStock(UpdateWholesalerBeerProduct stockUpdated);
     }
 }

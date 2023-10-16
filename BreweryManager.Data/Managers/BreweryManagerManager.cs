@@ -74,5 +74,28 @@ namespace BreweryManager.Data.Managers
             }
             return beers;
         }
+
+        public WholesalerBeerProductModel UpdateStock(UpdateWholesalerBeerProduct stockUpdated)
+        {
+            var wholesalerBeerProduct = _dataContext.wholesalerBeerProducts.Where(w => w.WholesalerId == stockUpdated.WholesalerId && w.BeerId == stockUpdated.BeerId).FirstOrDefault();
+            if (wholesalerBeerProduct != null)
+            {
+                wholesalerBeerProduct.Stock = stockUpdated.UpdatedStock;
+                _dataContext.Update(wholesalerBeerProduct);
+                _dataContext.SaveChanges();
+                return new WholesalerBeerProductModel
+                {
+                    Id = wholesalerBeerProduct.Id,
+                    BeerId = wholesalerBeerProduct.BeerId,
+                    WholesalerId = wholesalerBeerProduct.WholesalerId,
+                    Stock = wholesalerBeerProduct.Stock
+                };
+            }
+            else
+            {
+                throw new Exception("Product not found");
+            }
+           
+        }
     }
 }

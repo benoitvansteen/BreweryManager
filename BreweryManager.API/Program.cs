@@ -17,6 +17,7 @@ builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(build
 //dependency injections
 builder.Services.AddScoped<IBreweryManagerManager, BreweryManagerManager>();
 builder.Services.AddScoped<IBreweryManagerBusiness, BreweryManagerBusiness>();
+builder.Services.AddScoped<IWholesalerBusiness,WholesalerBusiness>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
